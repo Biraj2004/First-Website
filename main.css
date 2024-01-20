@@ -684,13 +684,3 @@ position: absolute;
 .hamburger:focus{
     outline: none;
 }
-
-@media(max-width:360px)
-{
-    .nav ul{
-        display: none;
-    }
-    .hamburger {
-        display: block; 
-    }
-}
