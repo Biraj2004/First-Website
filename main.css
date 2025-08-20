@@ -10,11 +10,12 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('images/hero page/7.jpg');
+    background-image: linear-gradient( rgba(167, 16, 16, 0.9),rgba(0,0,0,0.9)),url('images/hero page/7.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 130vh;
+    box-shadow: #141414;
 }
 header{
     color:rgb(184, 179, 179);
@@ -69,7 +70,7 @@ margin-top: 50px;
 }
 .user{
     cursor:pointer;
-    color:teal;
+    color:rgb(1, 142, 142);
     margin-top: 40px;
     margin-right: 40px;
 }
