@@ -38,7 +38,7 @@
 </header>
 
 <!-- Hero section -->
-<section>
+<section class="hero-section">
     <div class="heropage">
         <div class="inside-heropage">
             <span>NOW STREAMING</span>
@@ -174,9 +174,9 @@
             </div>
         </div>
     </div>
-</div>
-<div class="more1">
-    <a href="https://dotmovies.tokyo/">View More</a>
+    <div class="more1">
+        <a href="https://dotmovies.tokyo/">View More</a>
+    </div>
 </div>
 </section>
 
@@ -235,9 +235,9 @@
                 </div>
             </div>
         </div>
-    </div>
     <div class="more2">
         <a href="https://dotmovies.tokyo/">View More</a>
+    </div>
     </div>
 </section>
 
@@ -296,9 +296,9 @@
                 </div>
             </div>
         </div>
-    </div>
     <div class="more3">
         <a href="https://dotmovies.tokyo/">View More</a>
+    </div>
     </div>
 </section>
 
@@ -357,9 +357,9 @@
                 </div>
             </div>
         </div>
-        </div>
     <div class="more4">
         <a href="https://dotmovies.tokyo/">View More</a>
+    </div>
     </div>
 </section>
 
@@ -418,9 +418,9 @@
                 </div>
             </div>
         </div>
-    </div>
     <div class="more1">
         <a href="https://dotmovies.tokyo/">View More</a>
+    </div>
     </div>
 </section>
 
@@ -515,5 +515,13 @@
     <a href=""><i class="fas fa-arrow-up"></i></a>
 </div>
 
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navUL = document.querySelector('.nav ul');
+
+    hamburger.addEventListener('click', () => {
+        navUL.classList.toggle('show');
+    });
+</script>
 </body>
 </html>

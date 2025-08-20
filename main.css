@@ -14,7 +14,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 130vh;
+    height: auto;
 }
 header{
     color:rgb(184, 179, 179);
@@ -104,11 +104,17 @@ margin-top: 50px;
 }
 
 
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+
 .heropage{
-    position: absolute;
     color:white;
-    margin-top: 100px;
-    margin-left: 100px;
+    line-height: 2;
 }
 .inside-heropage{
     line-height:2;
@@ -156,21 +162,17 @@ position: absolute;
     color: white;
 }
 .poster{
-    margin-top: 130px;
-    margin-right: 150px;
+    /* no styles needed here anymore */
 }
 .poster img{
     height:320px;
-    float: right;
     border-radius: 10px;
 }
 .latest-movies{
-    position: absolute;
     width:100%;
-    height: 100%;
     background-color: black;
-    margin-top: 500px;
-    padding: 0px 20px;
+    padding: 20px;
+    margin-top: 20px;
 }
 .latest-movies h1{
     font-size: 20px;
@@ -183,14 +185,21 @@ position: absolute;
 .latest-container{
     display: flex;
     margin-top: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+}
+.latest-inside{
+    margin: 10px;
 }
 .latest-inside img{
     height: 122px;
     cursor: pointer;
     padding: 4px;
     transition: all 500ms ease-in-out;
+}
+.hollywood-inside, .tollywood-inside, .collywood-inside, .iollywood-inside, .sollywood-inside, .inside-yt{
+    margin: 10px;
 }
 .latest-inside img:hover{
     transform: scale(1.2);
@@ -219,13 +228,11 @@ position: absolute;
 
 }
 .hollywood-movies{
-    position: absolute;
     width:100%;
-    height: 100%;
     background-color: black;
-    padding: 0px 20px;
+    padding: 20px;
     color: white;
-    margin-top: 850px;
+    margin-top: 20px;
 }
 .hollywood-movies h1{
     font-size: 20px;
@@ -234,8 +241,9 @@ position: absolute;
 .hollywood-container{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .hollywood-inside h3{
     font-size: 15px;
@@ -262,26 +270,21 @@ position: absolute;
     font-weight: bolder;
 }
 .more1{
-position: absolute;
-margin-top: 860px;
-margin-left: 1220px;
+    text-align: right;
+    margin-top: 20px;
 }
 .more1 a{
-
     color:teal;
     font-weight: bolder;
     text-decoration: none;
-
 }
 
 .tollywood-movies{
-    position: absolute;
     width:100%;
-    height: 100%;
     background-color: black;
-    padding: 0px 20px;
+    padding: 20px;
     color: white;
-    margin-top: 1300px;
+    margin-top: 20px;
 }
 .tollywood-movies h1{
     font-size: 20px;
@@ -290,8 +293,9 @@ margin-left: 1220px;
 .tollywood-container{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .tollywood-inside h3{
     font-size: 15px;
@@ -319,13 +323,11 @@ margin-left: 1220px;
 }
 
 .collywood-movies{
-    position: absolute;
     width:100%;
-    height: 100%;
     background-color: black;
-    padding: 0px 20px;
+    padding: 20px;
     color: white;
-    margin-top: 1750px;
+    margin-top: 20px;
 }
 .collywood-movies h1{
     font-size: 20px;
@@ -334,8 +336,9 @@ margin-left: 1220px;
 .collywood-container{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .collywood-inside h3{
     font-size: 15px;
@@ -362,23 +365,13 @@ margin-left: 1220px;
     font-weight: bolder;
 }
 .more3{
-    position: absolute;
-    margin-top: 1300px;
-    margin-left: 1220px;
+    text-align: right;
+    margin-top: 20px;
 }
 .more3 a{
     color:teal;
     font-weight: bolder;
     text-decoration: none;
-}
-.tollywood-movies{
-    position: absolute;
-    width:100%;
-    height: 100%;
-    background-color: black;
-    padding: 0px 20px;
-    color: white;
-    margin-top: 1300px;
 }
 .tollywood-movies h1{
     font-size: 20px;
@@ -415,9 +408,8 @@ margin-left: 1220px;
     font-weight: bolder;
 }
 .more2{
-    position: absolute;
-    margin-top: 1730px;
-    margin-left: 1220px;
+    text-align: right;
+    margin-top: 20px;
 }
 .more2 a{
     color: teal;
@@ -425,13 +417,11 @@ margin-left: 1220px;
     text-decoration: none;
 }
 .iollywood-movies{
-    position: absolute;
     width:100%;
-    height: 100%;
     background-color: black;
-    padding: 0px 20px;
+    padding: 20px;
     color: white;
-    margin-top: 2200px;
+    margin-top: 20px;
 }
 .iollywood-movies h1{
     font-size: 20px;
@@ -440,8 +430,9 @@ margin-left: 1220px;
 .iollywood-container{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .iollywood-inside h3{
     font-size: 15px;
@@ -468,9 +459,8 @@ margin-left: 1220px;
     font-weight: bolder;
 }
 .more4{
-    position: absolute;
-    margin-top: 2200px;
-    margin-left: 1220px;
+    text-align: right;
+    margin-top: 20px;
 }
 .more4 a{
     color:teal;
@@ -478,13 +468,11 @@ margin-left: 1220px;
     text-decoration: none;
 }
 .sollywood-movies{
-    position: absolute;
     width:100%;
-    height: 75%;
     background-color: black;
-    padding: 0px 20px;
+    padding: 20px;
     color: white;
-    margin-top: 2650px;
+    margin-top: 20px;
 }
 .sollywood-movies h1{
     font-size: 20px;
@@ -493,8 +481,9 @@ margin-left: 1220px;
 .sollywood-container{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .sollywood-inside h3{
     font-size: 15px;
@@ -521,24 +510,20 @@ margin-left: 1220px;
     font-weight: bolder;
 }
 .more5{
-position: absolute;
- margin-top: 860px;
- margin-left: 1220px;
+    text-align: right;
+    margin-top: 20px;
 }
 .more5 a{
-
     color:teal;
     font-weight: bolder;
     text-decoration: none;
 }
 .akira{
-
-    position: absolute;
-    height:100%;
     width: 100%;
     background: black;
     color: white;
-    margin-top: 3100px;
+    margin-top: 20px;
+    padding: 20px;
 }
 .yt-movies{
     padding: 10px 170px;
@@ -559,8 +544,9 @@ position: absolute;
 }
 .yt-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .inside-yt img{
     padding: 10px 0px;
@@ -578,12 +564,10 @@ position: absolute;
 }
 
 .youtubebtn{
-    position:absolute;
-    height:30%;
     background-color: black;
     width: 100%;
-    margin-top: 3700px;
     text-align: center;
+    padding: 20px;
 }
 
 .youtubebtn a{
@@ -601,12 +585,10 @@ position: absolute;
 }
 
 .footer{
-    position: absolute;
-    margin-top: 3860px;
-    height: 20vh;
     color: white;
     background:#141414;
     width: 100%;
+    padding: 20px;
 }
 
 .logopart img{
@@ -683,4 +665,109 @@ position: absolute;
 
 .hamburger:focus{
     outline: none;
+}
+
+@media (max-width: 1024px) {
+    .heropage {
+        margin-left: 50px;
+    }
+
+    .inside-heropage h1 {
+        font-size: 30px;
+    }
+
+    .poster img {
+        height: 250px;
+        margin-right: 50px;
+    }
+
+    .latest-movies h1, .hollywood-movies h1, .tollywood-movies h1, .collywood-movies h1, .iollywood-movies h1, .sollywood-movies h1, .yt-movies h1 {
+        font-size: 18px;
+    }
+
+    .yt-movies {
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #141414;
+        text-align: center;
+    }
+
+    .nav ul.show {
+        display: flex;
+    }
+
+    .nav ul li {
+        padding: 15px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .heropage {
+        margin: 50px;
+        text-align: center;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .poster {
+        display: none;
+    }
+
+    .latest-movies, .hollywood-movies, .tollywood-movies, .collywood-movies, .iollywood-movies, .sollywood-movies, .akira {
+        padding: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logopart, .copyright, .socials, .btn4 {
+        margin: 10px 0;
+    }
+
+    .logopart img {
+        margin: 0;
+    }
+
+    .logopart h1 {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .heropage {
+        padding: 20px;
+    }
+
+    .inside-heropage h1 {
+        font-size: 24px;
+    }
+
+    .inside-heropage p {
+        font-size: 14px;
+    }
+
+    .btn1 a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .user {
+        display: none;
+    }
 }
