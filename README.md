@@ -12,7 +12,7 @@ Professional, open source movie discovery interface built with semantic HTML, re
 
 ## Live Links
 
-- Live Demo: [Free TV on GitHub Pages](https://biraj2004.github.io/First-Website/)
+- Live Demo: [Free TV is Live](https://biraj2004.github.io/First-Website/)
 - Issues: [Open issues](https://github.com/Biraj2004/First-Website/issues)
 - Pull Requests: [Open pull requests](https://github.com/Biraj2004/First-Website/pulls)
 - Security Advisories: [Report vulnerabilities](https://github.com/Biraj2004/First-Website/security/advisories)
@@ -33,6 +33,12 @@ Professional, open source movie discovery interface built with semantic HTML, re
 - Mobile-friendly layout and responsive components
 - Scroll-to-top button with auto hide and show behavior
 - External URL sanitization for safer link rendering
+
+## Preview
+
+- Live demo: [https://biraj2004.github.io/First-Website/](https://biraj2004.github.io/First-Website/)
+- Use Discover for search and genre filtering.
+- Use Watchlist to verify local browser persistence.
 
 ## Why This Project
 
@@ -62,6 +68,31 @@ The current focus is production-style structure, readable code, and secure-by-de
 1. Clone the repository.
 2. Run a local server from the project root.
 3. Open the served URL in your browser.
+
+### Quick Start Commands
+
+Using Node.js:
+
+```bash
+npx serve .
+```
+
+Using Python:
+
+```bash
+python -m http.server 5500
+```
+
+Then open: [http://localhost:5500](http://localhost:5500)
+
+## Browser Support
+
+- Chrome (latest)
+- Edge (latest)
+- Firefox (latest)
+- Safari (latest)
+
+Recommended: use a modern browser with JavaScript enabled.
 
 ## Development Guide
 
@@ -119,6 +150,12 @@ Contributions are welcome. Please open an issue for discussion before large chan
 
 - Security policy: [SECURITY.md](SECURITY.md)
 - License terms: [LICENSE](LICENSE)
+
+## Troubleshooting
+
+- If cards are not showing, refresh the page and check that all files are loaded.
+- If Watchlist does not persist, verify local storage is enabled in browser settings.
+- If links do not open, check browser pop-up and new-tab restrictions.
 
 ## Roadmap
 
