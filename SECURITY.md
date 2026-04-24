@@ -12,7 +12,7 @@ Please do not open public issues for security vulnerabilities.
 Use one of the following channels:
 
 1. GitHub Security Advisories (preferred):
-   - Go to: https://github.com/Biraj2004/First-Website/security/advisories
+   - Go to: [GitHub Security Advisories](https://github.com/Biraj2004/First-Website/security/advisories)
    - Click "Report a vulnerability"
 2. If advisories are unavailable, open a private communication channel with the maintainer first.
 
